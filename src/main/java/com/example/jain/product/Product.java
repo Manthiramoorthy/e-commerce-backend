@@ -1,4 +1,4 @@
-package com.example.jain;
+package com.example.jain.product;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -14,8 +14,9 @@ import lombok.NoArgsConstructor;
 public class Product {
     @Id
     String id;
-    String name;
+    String title;
     String description;
     double price;
+    String image;
 
 }

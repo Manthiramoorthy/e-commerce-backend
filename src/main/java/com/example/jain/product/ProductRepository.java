@@ -1,4 +1,4 @@
-package com.example.jain;
+package com.example.jain.product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
